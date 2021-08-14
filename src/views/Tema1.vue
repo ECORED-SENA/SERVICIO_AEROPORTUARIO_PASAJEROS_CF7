@@ -73,7 +73,45 @@
             | Atraso de vuelos.
 
     p.mb-5  A continuación, podremos revisar según la normativa aeronáutica vigente cuándo es responsabilidad de la empresa dar solución y compensar a los viajeros:
-    //- aqui viene la infografia
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        ImagenInfografica.color-secundario
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/t1-i8.svg', alt='infografia')
+
+          .tarjeta.yellowCard.p-3(x="25%" y="20%")
+            p.text-center Faculta como autoridad para expedir Reglamentos Aeronáuticos a la Unidad Administrativa Especial de la Aeronáutica Civil.
+
+          .tarjeta.yellowCard.p-3(x="57%" y="20%")
+            p.text-center Para garantizar la efectividad de los derechos de las personas naturales y jurídicas ante las autoridades y obtener un buen servicio.         
+
+          .tarjeta.yellowCard.p-3(x="89%" y="25%")
+            p.text-center Armonizar los reglamentos aeronáuticos de Colombia RAC, con los Reglamentos Aeronáuticos de Latinoamérica, sistema LAR.   
+          
+          .tarjeta.yellowCard.p-3(x="9%" y="74%")
+            p.text-center La República de Colombia aprueba convenio sobre aviación civil Internacional (OACI). 
+          .tarjeta.yellowCard.p-3(x="41%" y="78%")
+            p.text-center Le corresponde sancionar administrativamente a los particulares relacionados con el sector por la violación a los reglamentos aeronáuticos.
+          .tarjeta.yellowCard.p-3(x="73%" y="78%")
+            p.text-center Al usuario y la calidad de los servicios, se encarga de dirigir, organizar, coordinar y regular técnicamente el transporte aéreo.           
+    
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .tarjeta.color-primario.p-4.mb-5(data-aos="flip-up")
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/t1-icx.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 RAC 13 - Régimen Sancionatorio
+                  p.text-small Con el fin de ampliar información sobre normativa, es importante que descargue el siguiente documento.  
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/RAC_13_ Regimen_Sancionatorio.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+
     //-- Aqui viene el descargable
     
    
@@ -123,14 +161,14 @@
 
     #t_1_3.titulo-segundo
       h2 1.3 Manejo de irregularidades del viajero
-    p.mb-5  Se debe dar un tratamiento personalizado con dignidad y respeto al pasajero por parte del transportador o la compañía aérea y todos los funcionarios de la empresa aérea en todo momento hasta culminar su viaje.
-    p.mb-5  Es por lo que se establece ciertas características en el manejo de irregularidades como son:
+    p.mb-5(data-aos="fade-up")  Se debe dar un tratamiento personalizado con dignidad y respeto al pasajero por parte del transportador o la compañía aérea y todos los funcionarios de la empresa aérea en todo momento hasta culminar su viaje.
+    p.mb-5(data-aos="fade-up")  Es por lo que se establece ciertas características en el manejo de irregularidades como son:
     .row.justify-content-center.mb-5
       .col-lg-3
-        figure.mb-5
+        figure.mb-5(data-aos="fade-left")
           img(src='@/assets/curso/t1-i12.svg', alt='imagen decorativa')
       .col-lg-7
-        ul.lista-ul
+        ul.lista-ul(data-aos="fade-right")
           li 
             i.fas.fa-plane
             | Informar sobre cambios, demoras, cancelaciones o desvíos de la ruta acordada en la reserva, por el medio más rápido posible dentro de las 24 horas de antelación al vuelo. Si el pasajero ya se encuentra en el aeropuerto, en las áreas de atención se da la información necesaria y durante el vuelo también se suministra información por parte de la tripulación.
