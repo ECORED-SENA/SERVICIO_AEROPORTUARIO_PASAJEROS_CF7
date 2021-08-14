@@ -150,7 +150,7 @@
           img(src='@/assets/curso/t2-i9.png', alt='imagen decorativa')
 
     p.mb-5  Atendiendo lo que nos indica la Universidad del Rosario en su revista frente a este tema, tenemos:
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5.tipo4
       .col-lg-10
         .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5(data-aos="flip-up") 
           .row.m-0.align-items-center.justify-content-between
