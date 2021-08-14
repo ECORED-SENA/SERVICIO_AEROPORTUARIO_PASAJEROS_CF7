@@ -17,15 +17,7 @@
               .bloque-texto-a__texto.p-4
                 p Apreciado participante, le damos la bienvenida a este momento de aprendizaje orientado a conocer sobre el manejo de irregularidades en la operación aérea por diversidad de situaciones al momento de realizar un viaje. Antes de iniciar le invitamos a revisar el siguiente video que tiene como objetivo contextualizar en los temas a tratar en este componente formativo.
 
-      //--
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/t0-i1.jpg')})`}"
-          )
-          .bloque-texto-g__texto.p-4
-            p.mb-0 Apreciado participante, le damos la bienvenida a este momento de aprendizaje orientado a conocer sobre el manejo de irregularidades en la operación aérea por diversidad de situaciones al momento de realizar un viaje. Antes de iniciar le invitamos a revisar el siguiente video que tiene como objetivo contextualizar en los temas a tratar en este componente formativo.
-
-    
+   
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

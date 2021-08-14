@@ -13,7 +13,7 @@
       .col-lg-5
         figure.mb-5
           img(src='@/assets/curso/t1-i1.jpg', alt='Mujer haciendo check-in en el aeropuerto')
-    .row.mb-5.justify-content-center
+    .row.mb-5.justify-content-center(data-aos="flip-up")
       .col-lg-10
         .cajon.color-secundario.p-4
           p <b>Es importante tener en cuenta los derechos y deberes de los pasajeros</b> para que así no se le vulneren; pero también es indispensable entender que el pasajero juega un rol relevante en el proceso de viaje y por consiguiente tiene consigo deberes que se deben cumplir de igual manera para garantizar la seguridad de la operación aérea.
@@ -41,9 +41,9 @@
 
     p.mb-5  Situaciones donde la aerolínea debe compensar a los usuarios por motivos de irregularidades internas:
     
-    .row.mb-5.justify-content-center
+    .row.mb-5.justify-content-center(data-aos="fade-up")
       .col-lg-3
-        figure.mb-5
+        figure.mb-5(data-aos="fade-left")
           img(src='@/assets/curso/t1-i7.jpg', alt='Mujer sentada sobre una maleta esperando en sala de aeropuerto')
       .col-lg-7
         ul.lista-ul
@@ -79,7 +79,7 @@
    
     #t_1_2.titulo-segundo
       h2 1.2  Responsabilidades
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-lg-10
         .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
           .row.m-0.align-items-center.justify-content-between
@@ -90,29 +90,29 @@
 
     .row.justify-content-center.mb-5
       .col-lg-3
-        figure.mb-5
+        figure.mb-5(data-aos="fade-left")
           img(src='@/assets/curso/t1-i11.svg', alt='imagen decorativa')
       .col-lg-7
         ul.lista-ul
-          li 
+          li(data-aos="fade-up")
             i.fas.fa-plane
             | Condiciones y límites de la responsabilidad del transportista en los casos de los pasajeros con lesiones personales o fallecidos.
-          li 
+          li(data-aos="fade-up") 
             i.fas.fa-plane
             | Condiciones y límites en la responsabilidad del transportista por la pérdida, daño o retraso de los bienes y equipajes, lo cual incluye bienes frágiles o perecederos.
-          li 
+          li(data-aos="fade-up") 
             i.fas.fa-plane
             | Reclamos, restricciones, incluyendo límites de tiempo por el que los pasajeros deban presentar reclamos o deban interponer acciones en contra del transportista.
-          li 
+          li(data-aos="fade-up") 
             i.fas.fa-plane
             | Normas sobre reconfirmaciones o reservaciones, tiempos de presentación en el aeropuerto, el uso, duración y validez de los servicios de transporte aéreo y el derecho del transportista de negar la transportación.
-          li 
+          li(data-aos="fade-up") 
             i.fas.fa-plane
             | Normas sobre reconfirmación o reservaciones, tiempos de presentación en el aeropuerto.
-          li 
+          li(data-aos="fade-up") 
             i.fas.fa-plane
             | Derechos del transportista y límites en la responsabilidad del transportista en el caso de demoras o el incumplimiento de ejecución de un servicio, el cual incluye cambios en los itinerarios, sustitución de transportistas o aeronaves alternas y reasignación de rutas. Y cuando sea requerido por la ley aplicable la obligación del transportista de notificar a los pasajeros sobre la identidad del transportista operador o la aeronave sustituta.
-          li 
+          li(data-aos="fade-up") 
             i.fas.fa-plane
             | Derechos del transportista de denegar la transportación a los pasajeros que incumplan con las leyes aplicables o quienes incumplan con la presentación de todos los documentos de viaje necesarios.
           
@@ -158,35 +158,12 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    Muestras
   
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
   data: () => ({
     // variables de vue
   }),
