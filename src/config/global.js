@@ -70,12 +70,6 @@ export default {
     ],
     subMenu: [
       {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
-      {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
@@ -105,134 +99,88 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Aeronáutica civil. (s.f.). <i>Compensaciones por deficiencias en la prestación del servicio de transporte aéreo.</i>',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.aerocivil.gov.co/prensa/noticias/Pages/compensaciones-por-deficiencias-en-la-prestacion-del-servicio-de-transporte-aereo.aspx',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+        'Comunidad Andina. (s.f.). <i>Deberes y derechos de los pasajeros.</i>',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'http://www.comunidadandina.org/StaticFiles/201166182550folleto_viajeros.pdf',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Uribe D. (2019). La protección de los pasajeros de transporte aéreo en Colombia.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://revistas.urosario.edu.co/xml/733/73360074012/html/index.html',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Uribe, D. (2019). La protección de los pasajeros de transporte aéreo en Colombia. Revista Socio-Jurídicos, 21(2), 293-330. Doi:',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://doi.org/10.12804/revistas.urosario.edu.co/sociojuridicos/a.7474 ',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Cancelación',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'La no realización de un vuelo programado en el que había reservada al menos una plaza.',
     },
     {
-      termino: 'Suftware',
+      termino: 'Circunstancias imprevistas',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Son causas ajenas al normal desenvolvimiento de la actividad del transportista que impiden que el vuelo se lleve a cabo o que retrasen su iniciación tales como causas meteorológicas que impiden la operación del vuelo, fallas técnicas no correspondientes al mantenimiento programado o rutinario de la aeronave o causadas por pasajeros o terceros en el momento del vuelo, fallas de los equipos de soporte en tierra, entre otros.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Cumplimiento',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Estadísticas mensuales de vuelos programados, cancelados, demorados y cumplidos, indicando las causas de las cancelaciones y demoras (Comerciales, técnicas, operacionales e incontrolables) Este formato lo deben enviar las empresas regulares de pasajeros (nacionales y extranjeras) dentro de los 10 primeros días calendario del mes siguiente al cual corresponde la información.',
     },
     {
-      termino: 'Áectores',
+      termino: 'Denegación de embarque',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'La negativa a transportar pasajeros en un vuelo pese a haberse presentado al embarque con reserva confirmada y en las condiciones establecidas en el contrato de transporte, salvo que haya motivos razonables para denegar su embarque, tales como razones de salud o de seguridad o la presentación de documentos de viaje inadecuados, o la presentación tardía del pasajero al chequeo.',
     },
     {
-      termino: 'Moda',
+      termino: 'Reserva',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Acción aceptada o registrada por medio físico o electrónico por  el cual se le garantiza al usuario un espacio en un vuelo.',
     },
     {
-      termino: 'Diseño',
+      termino: 'Sobreventa (overbooking)',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Práctica que se presenta cuando, en un vuelo regular, el número de pasajeros con billete expedido con reserva confirmada que se presentan para embarcar dentro del tiempo límite señalado sobrepasa el número de plazas de las que dispone el avión.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Concepto: Unidad Administrativa Especial de Aeronáutica Civil. (s.f.). RAC 13 Régimen Sancionatorio.',
+      tipo: 'PDF',
+      descarga: '/downloads/RAC_13_Regimen_Sancionatorio.pdf',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
+        'Compensaciones al viajero: Aeronáutica Civil. (s.f.). Compensaciones por deficiencias en la prestación del servicio de transporte aéreo.',
       tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+      link:
+        'https://www.aerocivil.gov.co/prensa/noticias/Pages/compensaciones-por-deficiencias-en-la-prestacion-del-servicio-de-transporte-aereo.aspx',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
+        'Política de compensación del viajero: Comunidad Andina. (s.f.). Deberes y derechos de los pasajeros.',
+      tipo: 'Documento web',
+      link:
+        'http://www.comunidadandina.org/StaticFiles/201166182550folleto_viajeros.pdf',
     },
     {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      texto:
+        'Criterios de aplicación: Uribe, D. (2019). La protección de los pasajeros de transporte aéreo en Colombia. Revista Socio-Jurídicos, 21(2), 293-330.',
+      tipo: 'Revista web',
+      link:
+        'https://doi.org/10.12804/revistas.urosario.edu.co/sociojuridicos/a.7474',
     },
   ],
   creditos: {
