@@ -35,9 +35,39 @@
     //- cards
     .row.mb-5
       .col-lg-3
+        .nav-holder.align-items-center
+          img(src="@/assets/curso/c1.jpg", alt="imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.text-center
+                span.h4.mb-3 Por motivos meteorológicos o atmosféricos <br>
+                | Son situaciones de climas muy agrestes como tormentas, neblina, huracanes, granizo, lluvia, nieve y hielo en la pista, para la navegabilidad de las aeronaves estas son situaciones de fuerza mayor que ocasionan demoras, se pueden dar cancelaciones o interrupciones de vuelo. 
+
       .col-lg-3
+        .nav-holder.align-items-center
+          img(src="@/assets/curso/c2.jpg", alt="imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.text-center
+                span.h4.mb-3 Por motivos de orden público <br>
+                | Se presentan manifestaciones, casos de inestabilidad política, actos terroristas.
+
       .col-lg-3
+        .nav-holder.align-items-center
+          img(src="@/assets/curso/c3.jpg", alt="imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.text-center
+                span.h4.mb-3 Por motivos aeroportuarios <br>
+                | Huelga por parte de personal de aeropuerto o tripulación de vuelos.
       .col-lg-3
+        .nav-holder.align-items-center
+          img(src="@/assets/curso/c4.jpg", alt="imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.text-center
+                span.h4.mb-3 Por situaciones de desastres naturales <br>
+                | Terremotos, temblores, tsunamis, erupción volcánica, inundaciones, etc.      
 
     p.mb-5  Situaciones donde la aerolínea debe compensar a los usuarios por motivos de irregularidades internas:
     
@@ -112,7 +142,6 @@
                     span Descargar
                     i.fas.fa-file-download
 
-    //-- Aqui viene el descargable
     
    
     #t_1_2.titulo-segundo

@@ -17,10 +17,10 @@
 
     .row.mb-5
       .col-lg-2
-        figure
+        figure(data-aos="flip-left")
           img(src='@/assets/curso/t2-im1.svg', alt='imagen decorativa')
       .col-lg-10
-        .bloque-texto-d.color-secundario.p-4
+        .bloque-texto-d.color-secundario.p-4(data-aos="fade-left")
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
             .wrapText
@@ -33,7 +33,7 @@
             .h6.mb-0 - Según información de la Aeronáutica Civil       
     .row.mb-5
       .col-lg-7
-        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="https://www.aerocivil.gov.co/prensa/noticias/Pages/compensaciones-por-deficiencias-en-la-prestacion-del-servicio-de-transporte-aereo.aspx" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
@@ -47,12 +47,12 @@
     br  
     #t_2_1.titulo-segundo
       h2 2.1  Política de compensación del viajero
-    .row.mb-5
+    .row.mb-5(data-aos="fade-up")
       .col-lg-7
         p.mb-3  Los usuarios del transporte aéreo tienen derecho a recibir compensaciones por parte de las aerolíneas en los casos de cancelaciones, interrupciones o demoras en los vuelos en los que no se haya realizado el reembolso correspondiente. Para garantizar la compensación a los pasajeros, la autoridad aeronáutica establece normas y procedimientos en el que se reconocen al menos cuatro causales: retraso, interrupción del transporte, cancelación y sobreventa.
         p.mb-3.text-bold  Los pasajeros tendrán derecho a las siguientes compensaciones:
       .col-lg-5
-        figure
+        figure(data-aos="flip-left")
           img(src='@/assets/curso/t2-i2.png', alt='usuario en el counter del aeropuerto hablando con asesora')   
    
     .neg-margin.tarjeta.yellowCard.p-4.mb-5.r-0
@@ -108,7 +108,7 @@
 
     .row.mb-5
       .col-lg-7
-        a.anexo.mb-4.mb-lg-0(href="#!" target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="http://www.comunidadandina.org/StaticFiles/201166182550folleto_viajeros.pdf" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
@@ -118,17 +118,17 @@
     
     .row.justify-content-center.mb-5
       .col-lg-5
-        figure
+        figure(data-aos="fade-left")
           img(src='@/assets/curso/t2-i8.png', alt='imagen decorativa')
       .col-lg-5
         ul.lista-ul
-          li 
+          li(data-aos="fade-up") 
             i.fas.fa-plane
             | La aerolínea debe asumir el pago de los gastos mínimos por concepto de elementos de primera necesidad, es decir, utensilios de aseo.
-          li 
+          li(data-aos="fade-up") 
             i.fas.fa-plane
             | Si la demora del equipaje supera 24 horas, la aerolínea debe proveer el valor suficiente para obtener prendas de vestir básicas.
-          li 
+          li(data-aos="fade-up") 
             i.fas.fa-plane
             | Es importante tener en cuenta adicionalmente que no es recomendable llevar en su equipaje facturado elementos de valor, ya que en caso de inconvenientes con el equipaje la línea aérea no se hará responsable.
     
@@ -141,18 +141,18 @@
     p.mb-5 Son las regulaciones aeronáuticas que apropia cada país para hacer cumplir dentro y fuera de sus fronteras los derechos y deberes para el servicio de transporte aéreo.
     .row
       .col-lg-7
-        .cajon-b.color-primario.p-3.mb-5
+        .cajon-b.color-primario.p-3.mb-5(data-aos="fade-left")
           p.mb-3  Los usuarios del transporte aéreo deben tener en cuenta las normativas aeronáuticas que contemplan disposiciones relativas a sus derechos, estas son, el código de Comercio en el artículo 1773 establece que la segunda parte del libro quinto es quien regula toda actividad de la aeronáutica civil, inspeccionada y vigilada por el gobierno, donde estipula las principales obligaciones de las aerolíneas y los derechos de los pasajeros de la relación contractual del transporte. Los RAC (Reglamentos Aeronáuticos de Colombia) según artículo 1782 del código de Comercio establece que la Aerocivil es la autoridad gubernamental encargada de expedir los RAC, con facultad para sancionar a las aerolíneas o intermediarios por incumplimiento según Ley 105 de 1993 y reiterada en decreto 260 de 2004.
           p.mb-3  En el artículo 1874 del Decreto 410 de 1971 (Código de Comercio) hacen referencia a la distinción entre conceptos de transporte interno de pasajeros, que es cuando el punto de partida y destino están ubicados dentro del territorio nacional. Y transporte de pasajeros internacional son todos los demás casos.
 
       .col-lg-5
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/t2-i9.png', alt='imagen decorativa')
 
     p.mb-5  Atendiendo lo que nos indica la Universidad del Rosario en su revista frente a este tema, tenemos:
     .row.justify-content-center.mb-5
       .col-lg-10
-        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5(data-aos="flip-up") 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-4.mb-4.mb-lg-0
               h3.mb-0 Ahora bien, el Convenio de Montreal, ratificado por Colombia mediante la Ley 29 de 1992, precisa el concepto de transporte aéreo internacional.
@@ -163,7 +163,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-2
-        figure
+        figure(data-aos="flip-right") 
           img(src='@/assets/curso/t2-ic1.svg', alt='icono decorativo')
       .col-lg-8
         p <b>El RAC3, titulado Actividades Aéreas Civiles, contempla los derechos y deberes de los usuarios,</b> las medidas que se deben adoptar en caso de incumplimientos, las compensaciones a las que tienen derecho los pasajeros de transporte aéreo en caso de demoras, las cancelaciones, las sobreventas, los reembolsos y el procedimiento para los mismos, las exigencias relacionadas con los sistemas de atención al usuario y las instancias de reclamación para hacer efectivo todo lo anterior, entre muchas otras disposiciones relevantes para los pasajeros.
@@ -171,7 +171,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        .cajon.color-secundario.p-4
+        .cajon.color-secundario.p-4(data-aos="flip-up") 
           .row
             .col-lg-2
               figure
@@ -179,7 +179,7 @@
             .col-lg-10
               p Para ampliar la información a la normativa y los convenios en el que el Estado colombiano ha participado para la regulación del transporte aéreo a pasajeros se puede remitir al siguiente enlace de la Revista realizada por la Universidad del Rosario de Colombia. 
 
-              a.anexo.mb-4.mb-lg-0(href="#!" target="_blank")
+              a.anexo.mb-4.mb-lg-0(href="https://revistas.urosario.edu.co/xml/733/73360074012/html/index.html" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
