@@ -30,7 +30,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Concepto',
-            hash: 't_1_',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
