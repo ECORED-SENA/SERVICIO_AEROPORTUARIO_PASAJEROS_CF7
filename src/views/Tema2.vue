@@ -6,7 +6,7 @@
     .titulo-principal
       .titulo-principal__numero
         span  2
-      h1 Irregularidades
+      h1 Compensaciones al viajero
     .row.mb-5
       .col-lg-7
         p.mb-3  La compensación y asistencia del viajero en caso de denegación de embarque, de cancelación o retraso de los vuelos es una retribución que se da al pasajero por incumplimiento en las obligaciones del contrato de transporte, según las condiciones pactadas en el momento de la compra del servicio.
