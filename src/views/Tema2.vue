@@ -26,8 +26,8 @@
             .wrapText
               p.mb-3  En el lapso enero noviembre de 2016, las aerolíneas colombianas han desembolsado 50.068 millones de pesos para compensar a los pasajeros que han sufrido alguna afectación por deficiencias en el cumplimiento del contrato de transporte.<br><br>
               p.mb-3  Teniendo en cuenta que en este periodo (enero – noviembre) se movilizaron 32 millones 519 mil pasajeros, en el mes de noviembre, las aerolíneas compensaron por $8.836 millones.<br><br>
-              p.mb-3  El 73% de las compensaciones ocurrieron por cambio de horario y/o cancelación de vuelos, el 18% porque el pasajero no pudo acceder a una silla del vuelo para el cual había adquirido su tiquete y el 9% por deficiencias en el manejo del equipaje.<br><br>
-              p Las compensaciones están representadas en órdenes de servicios que posteriormente puede redimir el pasajero en la misma aerolínea, 43% bonos y millas, 41% pago a terceros, para cumplir con el contrato de transporte (hospedaje, endoso, traslados) el 6% reintegros y el 10% pagos por movilización y/o compensación por demora en la entrega del equipaje.
+              p.mb-3  El 73 % de las compensaciones ocurrieron por cambio de horario y/o cancelación de vuelos, el 18 % porque el pasajero no pudo acceder a una silla del vuelo para el cual había adquirido su tiquete y el 9 % por deficiencias en el manejo del equipaje.<br><br>
+              p Las compensaciones están representadas en órdenes de servicios que posteriormente puede redimir el pasajero en la misma aerolínea, 43 % bonos y millas, 41 % pago a terceros, para cumplir con el contrato de transporte (hospedaje, endoso, traslados) el 6 % reintegros y el 10 % pagos por movilización y/o compensación por demora en la entrega del equipaje.
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h6.mb-0 - Según información de la Aeronáutica Civil       
@@ -61,7 +61,7 @@
           .col-md-6.mb-4.mb-md-0
             .h4 Por retraso
             p.mb-3  Un refrigerio y una llamada telefónica que no exceda de tres minutos; al lugar de elección del pasajero cuando el retraso sea mayor de 1 hora y 15 minutos a 3 horas. Entre 3 a 5 horas se le ofrecerá desayuno, almuerzo o comida según la hora y lo mismo del punto anterior.
-            p.mb-3  Más de 5 horas se ofrecerá además de lo anterior una compensación al pasajero con el 30% del valor del trayecto y se brindará hospedaje en los casos en que sea necesario pernoctar, gastos de traslado o el reembolso a elección del pasajero, esto en el caso que el retraso sea superior a lo indicado.
+            p.mb-3  Más de 5 horas se ofrecerá además de lo anterior una compensación al pasajero con el 30 % del valor del trayecto y se brindará hospedaje en los casos en que sea necesario pernoctar, gastos de traslado o el reembolso a elección del pasajero, esto en el caso que el retraso sea superior a lo indicado.
             p.mb-3  Si la demora supera las 10 p.m. La aerolínea proporciona además del hospedaje, los gastos de traslado entre el aeropuerto y el lugar de hospedaje, a menos que el pasajero decida esperar voluntariamente en el aeropuerto 
 
           .col-md-4
@@ -94,7 +94,7 @@
                 | Cuando se sobrevenda el cupo, la aerolínea deberá proporcionarle el viaje a su destino final en el siguiente vuelo que cuente con espacio disponible, en la misma fecha y ruta. En caso de no disponer de vuelo, la aerolínea deberá hacer las gestiones necesarias para su embarque en otra aerolínea a la mayor brevedad posible.
               li 
                 i.fas.fa-plane
-                | Cuando no se medie un acuerdo directo entre el pasajero y la aerolínea para ceder el cupo, la empresa deberá otorgarle el 30% del valor del trayecto afectado.  
+                | Cuando no se medie un acuerdo directo entre el pasajero y la aerolínea para ceder el cupo, la empresa deberá otorgarle el 30 % del valor del trayecto afectado.  
           .col-md-4
             figure
               img(src='@/assets/curso/t2-i6.png', alt='imagen decorativa')    
