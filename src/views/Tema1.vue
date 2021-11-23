@@ -138,7 +138,7 @@
                   h3.mb-1 RAC 13 - Régimen Sancionatorio
                   p.text-small Con el fin de ampliar información sobre normativa, es importante que descargue el siguiente documento.  
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/RAC_13_ Regimen_Sancionatorio.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/regimen_sancionatorio.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 

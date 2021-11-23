@@ -183,7 +183,7 @@
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
-                  p <b>Enlace web.</b> Para mayor información sobre compensaciones diríjase al siguiente documento: Derechos y deberes de los pasajeros.
+                  p <b>Enlace web.</b> Para mayor información sobre compensaciones diríjase al siguiente documento: La protección de los pasajeros de transporte aéreo en Colombia.
 
     p.mb-5 Es importante tener en cuenta que para que el proceso de viaje se dé sin ningún contratiempo debemos cumplir con la siguiente información:
     .row.justify-content-center.mb-5
